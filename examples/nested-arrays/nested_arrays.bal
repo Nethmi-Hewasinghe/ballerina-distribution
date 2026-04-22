@@ -14,12 +14,12 @@ public function main() {
     io:println(orderItems3);
 
     // Accessing a nested array.
-    // This will access first item of the third order.
+    // This will access the first item of the second order.
     string item = orderItems3[1][0];
     io:println(item);
 
     // Updating a nested array.
-    // This will update first item of the third order.
+    // This will update the first item of the second order.
     orderItems3[1][0] = "apple";
     io:println(orderItems3);
 }
